@@ -71,8 +71,9 @@ function draw() {
   rectMode(CENTER);
   background(0);
  
+	if( packageBody.position.x= helicopterSprite.x ){
   packageBody.position.x = helicopterSprite.x 
-
+	}
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
 
